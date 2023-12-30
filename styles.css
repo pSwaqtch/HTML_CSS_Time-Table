@@ -1,0 +1,88 @@
+body {
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+}
+
+.heading1 {
+    text-align: center;
+    background-image: linear-gradient(to left, #000000, #ffffff, #007bff, #7bbcc4, #ffffff, #000000);
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+table {
+    border: 10px double darkcyan;
+    border-radius: 15px;
+    width: 80%; /* Set the width to 80% of the screen width */
+    margin: 20px auto; /* Center the table */
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    border-spacing: 7px; /* Adjust the value to increase or decrease the space between cells */
+}
+
+th, td {
+    border-radius: 12px;
+    text-align: center;
+    position: relative;
+    width: 14.29%; /* Set each column to have the same width (100% / 7 columns) */
+    padding: 0;
+    height: 50px;
+}
+
+th, .days {
+    border: 4px solid darkmagenta;
+    background-color: #f2f2f2;
+    padding: 8px;
+}
+
+td {
+    border: 4px double darkcyan;
+    padding: 36px 26px;
+}
+
+/* Rest of the styles remain unchanged */
+
+.subject {
+    font-weight: bolder;
+}
+
+.free-class {
+    font-style: italic;
+}
+
+.professor-box {
+    position: absolute;
+    bottom: 5px;
+    left: 5px;
+    background-color: lightslategray;
+    color: #fff;
+    font-weight: bold;
+    font-size: 12px;
+    padding: 4px 8px;
+    border-radius: 7px;
+}
+
+.tile {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    background-color: darkcyan;
+    color: #fff;
+    font-weight: bold;
+    font-size: 12px;
+    padding: 4px 8px;
+    border-radius: 7px;
+}
+
+.class-number {
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    background-color: #808;
+    color: #fff;
+    font-weight: bold;
+    font-size: 12px;
+    padding: 4px 8px;
+    border-radius: 7px;
+}
